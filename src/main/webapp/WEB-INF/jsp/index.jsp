@@ -60,9 +60,6 @@
 	  text-align: center;
 	  /* font-size: 0.875em; */
 	}
-	.tab_cont .scrolltable tbody tr:nth-child(2n+1){
-	    background-color: #f0f0f0;
-	}
 	
 	</style>
 	
@@ -664,7 +661,8 @@
 		
 		  <div class="content">
 		 	 <div>
-		 	 <div class="popup-top"><h4>상담신청</h4></div>
+		 	 <div class="popup-top"><h4>간편 견적 신청</h4></div>
+		 	 
 		 	 	<div class="form-box">
 					<div class="inputT">
 						<label for="userName2">이름</label>
@@ -673,6 +671,18 @@
 					<div class="inputT">
 						<label for="phoneNum2">휴대전화</label>
 						<input type="tel" id="phoneNum2" name="phoneNum2" placeholder="“-“ 없이 입력하세요" min="0" maxlength="11" oninput="maxLengthCheck(this)">
+					</div>
+					<div class="inputT">
+						<label for="location">지역</label>
+						<select title="지역선택" validator="" message="지역을 선택하세요">
+                             <option value="">지역 선택</option>
+                             <option value="서울" data-code="서울">서울</option>
+	                         <option value="인천/경기/강원" data-code="인천/경기/강원">인천/경기/강원</option>
+	                         <option value="대전/충청/세종" data-code="대전/충청/세종">대전/충청/세종</option>
+	                         <option value="광주/전라" data-code="광주/전라">광주/전라</option>
+	                         <option value="대구/부산/울산/경남" data-code="대구/부산/울산/경남">대구/부산/울산/경남</option>
+	                         <option value="제주" data-code="제주">제주</option>
+                        </select>
 					</div>
 				</div>
 				

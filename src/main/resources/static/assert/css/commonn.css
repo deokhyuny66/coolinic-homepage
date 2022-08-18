@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
 @media (max-width: 767px){
 	html::-webkit-scrollbar {
       width: 10px;
@@ -578,7 +579,7 @@ input, textarea{
       text-align: center;
       padding: 10px 0;
       vertical-align: middle;
-      width:90px;
+      width:120px;
 }
 /* #sec03 .tab_cont table.container_size th{
       width: calc(100% / 4);
@@ -600,7 +601,7 @@ input, textarea{
       text-align: center;
       padding: 10px 0;
       border: 1px solid #f5f5f5;
-      width: 90px;
+      width: 120px;
 }
 #tab_cont02, #tab_cont03{
       display: none;
@@ -2945,6 +2946,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, 
     -ms-flex-pack: center;
     justify-content: center;
     padding-bottom: 12px;
+    margin-top: 10px;
 }
 .inputT {
     display: inline-block;
@@ -2955,7 +2957,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, 
     position: relative;
     width: 100%;
 }
-.inputT>input {
+.inputT>input,
+.inputT>select {
     border: 1px solid #EBEBEB;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
@@ -2968,9 +2971,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, 
 
 .form-box label {
     width: 25%;
-    font-size: 15px;
-    font-weight: normal;
-    font-family: 'NotoB';
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* popup 시작 */
@@ -2987,6 +2989,35 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, 
   z-index: 1;
 }
 
+input, button, select, textarea {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #2f2f2f;
+    font-size: 15px;
+    font-family: inherit;
+    color: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+#popup .form-box {
+	padding-right:50px;
+	padding-left:50px;
+	padding-top: 40px;
+}
+
 #popup.hide {
   display: none;
 }
@@ -3000,11 +3031,16 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, 
   background: #fff;
   border-radius: 20px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  height: 750px;
+  overflow-y: auto;
+  width: 30%;
 }
 
 #popup .popup-top {
     position: relative;
     z-index: 1;
+    padding: 0 50px;
+    border-bottom: 2px solid #d2d2d2;
 }
 #popup .popup-top>h4 {
     display: -webkit-box;
@@ -3018,13 +3054,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong, em, img, sub, sup, 
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
     font-size: 26px;
-    font-family: "ManropeB", "NotoB", serif;
-    font-weight: normal;
+    font-weight: bold;
     height: 100px;
 }
 

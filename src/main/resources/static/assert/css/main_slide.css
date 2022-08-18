@@ -302,7 +302,7 @@
 	.notice .promotion .swiper-slide .btn {
 	  /*width: 130px;*/
 	  position: absolute;
-	  bottom: 34;
+	  bottom: 70;
 	  left: 0;
 	  right: 0;
 	  margin: auto;
@@ -329,6 +329,7 @@
 	}
 	.notice .promotion img {
 		cursor: pointer;
+		max-width: 100%;
 	}
 	.notice .promotion .swiper-prev,
 	.notice .promotion .swiper-next {
