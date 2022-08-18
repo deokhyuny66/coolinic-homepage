@@ -32,17 +32,6 @@ public class CoolinicController {
 	
 	@RequestMapping("/")
 	public String view() throws Exception{
-		return "/index";
+		return "/nav-six-item-three-column";
 	}
-	
-	@RequestMapping("rental")
-	public String retal() throws Exception{
-		return "/rental";
-	}
-	
-	@RequestMapping("calc")
-	public String autoCalc() throws Exception{
-		return "/calc";
-	}
-	
 }

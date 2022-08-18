@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <html>
 <head>
 	<title>VINGO</title>
@@ -203,14 +204,147 @@
               </div>
               <div class="swiper-slide">
                 <a href="javascript:void(0)">[당첨자 발표] 2021 스타벅스 플래너 영수증 이벤트</a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)">스타벅스커피 코리아 애플리케이션 버전 업데이트 안내</a>
-              </div>
-              <div class="swiper-slide">
-                <a href="javascript:void(0)">[당첨자 발표] 뉴이어 전자영수증 이벤트</a>
+=======
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Boots4 v3.1 | Portfolio Template</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="/assets/lib/prismjs/prism.css" rel="stylesheet">
+    <link href="/assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="/assets/lib/remodal/remodal.css" rel="stylesheet">
+    <link href="/assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
+    <link href="/assets/css/theme.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main>
+      <div id="preloader">
+        <div class="loader"><span></span><span></span><span></span><span></span></div>
+      </div>
+      <div class="showcase">
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="text-center py-5 py-xxl-7">
+
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col" style="max-width: 40rem">
+                <h1 class="d-inline-block text-white fs-4 fs-sm-6 position-relative px-4 display-4 pt-3 pt-sm-0">Stand Out!<span class="fs--1 position-absolute bg-danger rounded-circle t-0 r-0" style="height: 40px; width: 40px; line-height: 40px;">v3.0</span></h1>
+                <p class="lead text-white px-5 mb-5">Portfolios comes in all shapes and sizes, but Boots'4 shows what a great one looks like.</p>
+                <a class="btn btn-outline-light mx-2" href="https://themewagon.com/themes/first-ever-bootstrap-4-template/">Buy</a>
+                <a class="btn btn-outline-light mx-2" href="nav-eight-item-four-column.jsp#docs">Docs</a>
+>>>>>>> bdfe09ca629cc5528980f8c6f864b2d6d61b3588
               </div>
             </div>
+          </div><!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-0">
+
+          <div class="container-fluid">
+            <div class="row justify-content-center parallax" data-rellax-speed="5">
+              <div class="col-md-10 col-xl-8">
+                <div class="row">
+                  <div class="col-lg-6 mt-5 px-4">
+                    <a href="nav-four-item-two-column.jsp" target="_blank">
+                      <img class="img-fluid rounded" src="/assets/img/screenshots/nav-four-item-two-column.jpg">
+                    </a>
+                  </div>
+                  <div class="col-lg-6 mt-5 px-4">
+                    <a href="nav-four-item-one-column.jsp" target="_blank">
+                      <img class="img-fluid rounded" src="/assets/img/screenshots/nav-four-item-one-column.jpg">
+                    </a>
+                  </div>
+                  <div class="col-lg-6 mt-5 px-4">
+                    <a href="nav-six-item-two-column.jsp" target="_blank">
+                      <img class="img-fluid rounded" src="/assets/img/screenshots/nav-six-item-two-column.jpg">
+                    </a>
+                  </div>
+                  <div class="col-lg-6 mt-5 px-4">
+                    <a href="nav-six-item-three-column.jsp" target="_blank">
+                      <img class="img-fluid rounded" src="/assets/img/screenshots/nav-six-item-three-column.jpg">
+                    </a>
+                  </div>
+                  <div class="col-lg-6 mt-5 px-4">
+                    <a href="nav-eight-item-four-column.jsp" target="_blank">
+                      <img class="img-fluid rounded" src="/assets/img/screenshots/nav-eight-item-four-column.jpg">
+                    </a>
+                  </div>
+                  <div class="col-lg-6 mt-5 px-4">
+                    <a href="nav-sixteen-item-four-column.jsp" target="_blank">
+                      <img class="img-fluid rounded" src="/assets/img/screenshots/nav-sixteen-item-four-column.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="pt-0 pb-7 showcase-footer">
+
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-center mt-2 mt-lg-0">
+                <p class="fs--1 text-uppercase ls font-weight-bold mb-0 text-white">Made with<span class="fas fa-heart text-danger mx-1"></span>by
+                  <a class="text-white" href="https://themewagon.com/">Themewagon</a>
+                </p>
+              </div>
+            </div>
+<<<<<<< HEAD
           </div>
           <a href="javascript:void(0)" class="notice-line__more">
             <span class="material-icons">notifications_active</span>
@@ -737,130 +871,40 @@
             <p class="cs_sub">카카오톡 채팅상담 운영시간<br>09:00 ~ 18:00 (주말, 공휴일 제외)</p>
           </div>
         </a>
+=======
+          </div><!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+>>>>>>> bdfe09ca629cc5528980f8c6f864b2d6d61b3588
       </div>
-    </div>
-  </div>
-</footer>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
 
 
-<!-- Mirae Talk Script Ver 2.0   -->
-<script async="true"  src="//log1.toup.net/mirae_log_chat_common.js?adkey=rjvfg" charset="UTF-8"></script> 
-<!-- Mirae Talk Script END Ver 2.0   -->
-	  <div id="popup_btn_box"> 
-	    <div id="popup_btn">
-	      <span></span>
-	      <p><a href="https://www.vingo.co.kr/estimate/index" target="_blank">A/S신청</a></p>
-	    </div>
-	  </div>
-	</div>
-	
-	
-	<script type="text/javascript">
-	
-    
-		$(function() {
 
-		if (document.location.protocol == 'http:') {
 
-    		//document.location.href = document.location.href.replace('http:', 'https:');
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/lib/prismjs/prism.js"></script>
+    <script src="/assets/lib/loaders.css/loaders.css.js"></script>
+    <script src="/assets/js/stickyfill.min.js"></script>
+    <script src="/assets/lib/remodal/remodal.js"></script>
+    <script src="/assets/lib/jtap/jquery.tap.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="/assets/js/rellax.min.js"></script>
+    <script src="/assets/js/theme.js"></script>
 
-		}
-		});
-		$("#contact_open").click(function() {
-			
-			
-			// 디바이스 종류 설정
-		    var pc_device = "win16|win32|win64|mac|macintel";
-			
-			//화면 크기 판별
-			var w = 800;
-			var h = 650;
-			
-			var xPos = (document.body.offsetWidth/2) - (w/2); // 가운데 정렬
-			xPos += window.screenLeft; // 듀얼 모니터일 때
-			var yPos = (document.body.offsetHeight/2) - (h/2);
-		 
-		    // 접속한 디바이스 환경
-		    var this_device = navigator.platform;
-		 
-		    if (this_device) {
-		 
-		        if ( pc_device.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-		        	window.open("/contact/");
-		        } else {
-					window.open("/contact/", "", "width="+w+", height="+h+", left="+xPos+", top="+yPos+", menubar=yes, status=yes, titlebar=yes, resizable=yes");
-		        }
-		 
-		    }
-			
-		});
-	
-		$('.qa_box').each(function(){
-		    
-		    var QBox = $(this).find('.question_box');
-		    var ABox_all = $(this).find('.answer_back');
-		    var img = $(QBox).find('img');
-		    var imgs = $('.question_box img');
-		    var srcOff = img.attr('src');
-		    var srcOn = srcOff.replace('off','on');
+  </body>
 
-		    $(QBox).click(function(){
-				
-				var ABox = $(this).next('.answer_back');
-				
-				var click_img = $(this).children('img');
-				
-				var click_img_src = click_img.attr('src');
-			
-				if(click_img_src == "/assert/images/slide_arr_off.png"){
-					
-					console.log("off");		
-					
-					imgs.attr('src',srcOff);
-					$('.answer_back').stop().slideUp(300);
-					
-					click_img_src = click_img_src.replace('off','on');
-					click_img.attr('src', click_img_src);
-					$(ABox).stop().slideDown(300);
-				}else{
-					console.log("on");	
-					click_img_src = click_img_src.replace('on','off');
-					
-					click_img.attr("src", click_img_src);
-					$(ABox).stop().slideUp(300);
-				}
-			
-		      //imgs.attr('src',srcOff);
-		      //img.attr('src',srcOn);
-		      //$('.answer_back').stop().slideUp(300);
-		      //$(ABox).stop().slideDown(300);
-		    });//자주묻는질문 아코디언
-		  });//자주묻는질문 끝
-	
-	</script>
-
-	
-<!-- vingo -->	
-<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-<script type="text/javascript">
-if(!wcs_add) var wcs_add = {};
-wcs_add["wa"] = "ec8f6ad6d73110";
-if(window.wcs) {
-wcs_do();
-}
-</script>
-
-<!-- 네이버광고 -->
-<script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
-<script type="text/javascript"> 
-if (!wcs_add) var wcs_add={};
-wcs_add["wa"] = "s_116de3bd4f2c";
-if (!_nasa) var _nasa={};
-if(window.wcs){
-wcs.inflow();
-wcs_do(_nasa);
-}
-</script>
-
-</body>
 </html>
